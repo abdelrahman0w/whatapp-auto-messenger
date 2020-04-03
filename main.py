@@ -30,7 +30,7 @@ driver.get('https://web.whatsapp.com/')
 
 time.sleep(10) # prepare your phone to scan the code in those 10 seconds
 
-msg = ''
+msg = 'replace with your some text'
 def send(num,nm):
     driver.get(url+num)
     element_presence(By.XPATH,'//*[@id="main"]/footer/div[1]/div[2]/div/div[2]',30)
