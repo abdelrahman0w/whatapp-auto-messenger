@@ -1,5 +1,3 @@
-# Copyright © 2020 | Made with ♥ By: Abdelrahman Wael "abdelrahmanwael@outlook.com"
-
 from selenium import webdriver 
 from selenium.webdriver.support.ui import WebDriverWait 
 from selenium.webdriver.support import expected_conditions as EC 
@@ -41,5 +39,3 @@ def send(num,nm):
 
 for num in al:
     send(num,al[num])
-
-# Copyright © 2020 | Made with ♥ By: Abdelrahman Wael "abdelrahmanwael@outlook.com"
